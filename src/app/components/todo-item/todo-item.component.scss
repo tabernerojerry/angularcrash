@@ -1,0 +1,11 @@
+.todo-item {
+  padding: 8px 0;
+}
+
+:host /deep/ .mat-list-item-content {
+  justify-content: space-between;
+}
+
+.is-complete /deep/ .mat-checkbox-label {
+  text-decoration: line-through;
+}

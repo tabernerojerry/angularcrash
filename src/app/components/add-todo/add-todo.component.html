@@ -1,0 +1,8 @@
+<form class="todo-form" (ngSubmit)="onSubmit()">
+  <mat-form-field>
+    <input matInput name="title" [(ngModel)]="title" placeholder="Todo" />
+  </mat-form-field>
+  <div class="action-container">
+    <button mat-fab type="submit"><mat-icon>add</mat-icon></button>
+  </div>
+</form>
